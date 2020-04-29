@@ -1,0 +1,13 @@
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.footer span {
+  color: #ff2200;
+}
+
+.footer div img {
+  margin-left: 10px;
+}

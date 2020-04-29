@@ -1,0 +1,25 @@
+header ul {
+  display: inline-block;
+  width: 80vw !important;
+}
+
+@media screen and (max-width: 576px) {
+  header ul {
+    width: 50px !important;
+  }
+  .ant-menu-submenu-popup > .ant-menu {
+    background-color: black !important;
+  }
+}
+
+header .ant-avatar {
+  display: inline-block;
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none !important;
+}
+.status {
+  margin-left: 10px;
+}
